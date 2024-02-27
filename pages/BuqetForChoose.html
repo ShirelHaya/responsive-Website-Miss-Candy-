@@ -1,0 +1,1960 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="../css/header.css" rel="stylesheet" />
+    <link href="../css/footer.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <link href="../css/products.css" rel="stylesheet" />
+    <title>זרים</title>
+</head>
+<body>
+    <!--tost massage-->
+    <!--<button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>-->
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="..." class="rounded me-2" alt="...">
+                <strong class="me-auto">Bootstrap</strong>
+                <small>קניה מהנה</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <!--value="top-0 start-50 translate-middle-x"-->
+            <div class="toast-body">
+                המחירים אינם כוללים את מחיר הכלי
+                <br />
+                התמונות להמחשה בלבד
+                <br />
+                במקרה של חוסר במלאי יתכנו שינויי'ם קלים בצבעים'
+            </div>
+        </div>
+    </div>
+    <!--until here-->
+    <header>
+        <audio id="TheAudio" autoplay="autoplay" loop="loop" onended="myNewScr">
+            HTML5 בדף זה אמורה להתנגן מנגינה אך הדפדפן שלך אינו תומך בתקן
+            <source src="../audio/Simi%20Lev%20(feat.%20Shmueli%20Ungar).mp3" type="audio/mp3" />
+            <source src="../audio/Simi%20Lev%20(feat.%20Shmueli%20Ungar).ogg" type="audio/ogg" />
+        </audio>
+        <img id="logo" src="../pictures/LogoMissCandy1.png" />
+        <!--תפריט למסכים קטנים-->
+        <div class="mobile">
+            <!--תפריט-->
+            <input type="checkbox" id="active">
+            <label for="active" class="menu-btn"><span></span></label>
+            <label for="active" class="close"></label>
+            <div class="wrapper">
+                <ul>
+
+                    <li> <a href="mainPage.html">בית</a></li>
+                    <li> <a href="Subscriber-new.html">הצטרפות-למנוי</a></li>
+                    <li> <a href="Subscriber-old.html">התחברות</a></li>
+                    <li><a href="BuqetForChoose.html">זרים</a></li>
+                    <li><a href="AloneBulding.html">הרכבה-עצמאית-ותוספות</a></li>
+                    <li><a href="Gifts.html"> מתנות</a></li>
+                    <li><a href="AboutUs.html">אודות</a></li>
+                    <li>
+                        <a href="ShoppingPacket.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <!--תפריט למסכים רחבים-->
+        <nav class="stroke">
+
+            <ul>
+                <li> <a href="mainPage.html">בית</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">סוגי-זרים</a>
+                    <div class="dropdown-content">
+                        <a href="BuqetForChoose.html">זרים</a>
+                        <a href="AloneBulding.html">הרכבה עצמאית ותוספות</a>
+                        <a href="Gifts.html">מתנות</a>
+                    </div>
+                </li>
+                <li><a href="AboutUs.html">אודות</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">מנוי</a>
+                    <div class="dropdown-content">
+                        <a href="Subscriber-old.html">התחברות</a>
+                        <a href="Subscriber-new.html">הצטרפות</a>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="ShoppingPacket.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 id="title">זרים</h1>
+    <div class="container">
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <div class="container1">
+                    <img src="../pictures/זרים/ורדים/זר ורדים 1.png" style=" cursor: pointer " onclick="onClick(this)" alt="Product" class="img-responsive" />
+                </div>
+
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר ורדים</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">180$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/ורדים/זר ורדים 3.png" alt="Product" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר ורדים אדום</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">120$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/ורדים/זר ורדים 5.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר ורודים לבן/ורוד</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">125$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/ורדים/זר ורדים 6.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר ורדים ורוד בקופסא</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">150$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/ורדים/זר ורדים 7.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר ורדים לבן בקופסא</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">150$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/ורדים/זר ורדים 8.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר ורדים משולב בקופסא</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">290$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/ורדים/תמונה 11.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>ורד לבן גדול</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">30$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/ורדים/תמונה 24.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר ורדים סגלגל</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">190$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/ורדים/תמונה 26.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר ורדים אדום ורוד</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">120$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/ורדים/תמונה 28.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>סלסלת ורדים לבנים</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">130$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/טוליפ/זר טוליפ 4.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טוליפ ורוד לבן ענק</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">210$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/טוליפ/זר טוליפ בינוני גדול.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טוליפ צהוב בינוני</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">110$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/טוליפ/זר טוליפ צבעוני צד.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טוליפ צבעוני בינוני</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">110$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/טוליפ/זר טוליפ קטן צבעוני.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טוליפ צבעוני קטן</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">70$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/טוליפ/זר פרחים קטן טוליפ.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טוליפ סגול צהוב קטן</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">120$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/טוליפ/תמונה 39.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טוליפ אדום גדול</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">220$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/טוליפ/תמונה 40.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טוליפ ורוד קטן </h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">110$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/טוליפ/תמונה 41.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טוליפ ורוד סגול קטן</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">110$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/טוליפ/תמונה 42.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טוליפ תכלת בינוני</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">115$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/טוליפ/תמונה 43.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טוליפ צהוב אדום בינוני</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">120$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי 10.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי בינוני</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">100$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי 11.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי מלא קטן</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">100$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי 12.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי אדמדם</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">118$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי 13.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי כלי לבן</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">109$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי 14.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי כלי ורוד קטן</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">105$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי 15.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי כלי לבן חמוד קטן</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">99$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי 16.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי כוכב/ת שלי</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">95$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי 17.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי כתום ירוק</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">150$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי 18.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי מלא כלי ורוד גדול</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">225$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי 19.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי מלא גבוה גדול</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">310$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי 3.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי קטן מלא כלי סגול</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">103$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי 4.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי נגיעות לבן סגול</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">190$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי 5.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי מגבעת</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">129$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי 6.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי ענק</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">410$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי 7.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי צהוב ורוד</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">229$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי 8.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי דמוי פטריות</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">138$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי 9.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי ענק כלי ורוד</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">410$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי גדול 2.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי ענק כלי לבן</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">490$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי גדול.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי מלא גדול</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">299.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי וטופי 2.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי בשילוב סוכריות טופי</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">149$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי וטופי.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות טופי בשילוב סוכריות גומי מלא</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">170$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי קטן 2.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי קטן קטן וקולע</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">139$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי קטן.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי נגיעות אדום קטן</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">131$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מגומי/זר סוכריות גומי5.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר סוכריות גומי בינוני נגיעות ורוד ולבן</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">120$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופי 12.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי קטן נגיעות צהוב וורוד</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">90$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופי 13.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי גדול נגיעות חום וורוד </h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">135$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופי 14.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי בינוני כלי אדום שחור</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">118$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופי 15.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי כחול-תכלת</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">109$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופי 16.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי דמוי ורדים ורודים</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">115$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופי 17.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי אדום דמוי דודאים</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">130$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופים 10.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי דמוי בלונים</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">84.5$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופים 11.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי עדין גדול</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">116.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופים 12.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי אדום לבן בשילוב ורדים(לא מלאים) גדול</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">128.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופים 13.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי "תיבת אוצרות" בגדלים שונים</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">החל מ-89.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופים 2.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי ורוד סגול בינוני</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">89.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופים 3.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי ורוד סגול בינוני בכלי </h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">106.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופים 4.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי צבעוני מלא קטן </h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">99.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופים 6.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי כחול-תכלת</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">89.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופים 7.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי גדול בנגיעות סגול</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">109.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופים 8.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי קטן צבעוני</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">79.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופים 9.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי גדול בשילוב בקבוק ליקר או יי'ן</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">119.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופים.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי סגול ורוד כלי ורוד</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">99.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זר טופים5.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר טופי קטן כלי מרובע</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">86.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/מטופים/זרי טופי.png" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זרי טופי קטנים במבחר צבעים </h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">86.7$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/משולב סוגי פרחים/תמונה 18.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>סלסלת סוגי פרחים מגוון בגווני כתום</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">169.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/משולב סוגי פרחים/תמונה 21.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר משולב סוגי פרחים בגווני צהוב אדום</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">159.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/משולב סוגי פרחים/תמונה 29.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר משולב סוגי פרחים בגווני אדום לבן וזהב</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">118.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/משולב סוגי פרחים/תמונה 35.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר משולב סוגי פרחים בגווני ורוד ותכלת</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">123.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/סוג פרחים אחר/תמונה 13.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר פרחי אביב ורודים</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">87.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/סוג פרחים אחר/תמונה 19.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר פרחי אביב אדומים</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">99$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/סוג פרחים אחר/תמונה 34.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר פרחי אביב אדום ולבן</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">104$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/סוג פרחים אחר/תמונה 36.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר פרחי אביב צהוב כתום וורוד</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">145$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/קונוס/תמונה 10.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר קונוסים בגווני תכלת וורוד</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">106$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/קונוס/תמונה 14.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר מקונוסים בגווני צהוב אדום</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">79.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/קונוס/תמונה 17.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר מקונוסים צבעוני מלא</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">83.5$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/קונוס/תמונה 30.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר מקונוסים בגווני אדום תכלת</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">93$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/קונוס/תמונה 31.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר מקונוסים בגווני תכלת ואדום</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">87$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/קונוס/תמונה 5.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר מקונוסים בגוונים סולידיי'ם</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">108.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsk-cp-product">
+            <div class="wsk-cp-img">
+                <img src="../pictures/זרים/קונוס/תמונה 7.jpg" style=" cursor: pointer " onclick="onClick(this)" class="img-responsive" />
+            </div>
+            <div class="wsk-cp-text">
+                <div class="title-product">
+                    <h1>זר מקונוסים מובנה על בקבוק יי'ן</h1>
+                </div>
+
+                <div class="card-footer">
+                    <div class="wcf-left"><span class="price">189.9$</span></div>
+                    <div class="wcf-right">
+                        <a class="buy-btn">
+                            <!--class="shopping" under-->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="modal01" class="modal" onclick="this.style.display='none'">
+            <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <div class="modal-content">
+                <img id="img01" style="max-width:100%">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="column">
+                <ul>
+                    <li class="title">Miss Candy</li>
+                    <li>
+                        Сладкие цветы в большом ассортименте и возможность самостоятельной сборки. Все цветы сделаны вручную профессиональным художником.
+
+                    </li>
+
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li class="title">קישורים נוספים</li>
+                    <li><a href="AboutUs.html">אודות</a></li>
+                    <li><a href="AboutUs.html">אופן התשלום</a></li>
+                    <li><a href="AboutUs.html">מדניות האתר</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li class="title">קיצורים</li>
+                    <li><a href="BuqetForChoose.html">זרים</a></li>
+                    <li><a href="AloneBulding.html">הרכבה עצמית</a></li>
+                    <li><a href="Gifts.html">מתנות</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li class="title">ניוזליי'טר</li>
+                    <li>
+                        <form action="#" method="post">
+                            <input type="email" name="email"
+                                   placeholder="אמיי'ל*" maxlength="80" required />
+                            <button class="btn1">
+                                <i class="fa fa-paper-plane"></i>
+                            </button>
+
+                        </form>
+                    </li>
+                    <li>
+                        <a class="social icon" href="#"
+                           title="Address,State,Country,Pincode">
+                            <i class="fa fa-map-marker"></i>
+                        </a>
+
+                        <a class="social icon" href="#">
+                            <i class="fa fa-phone"></i>
+                        </a>
+
+                        <a class="social icon" href="#">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="sub-footer">
+        made with &nbsp;
+        <svg id="love" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+        </svg>
+        &nbsp; Shirel Haya Aronin
+    </div>
+
+
+
+
+    <script>
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+        }
+        /*tost massage*/
+        const toastTrigger = document.getElementById('liveToastBtn')
+        const toastLiveExample = document.getElementById('liveToast')
+        if (toastTrigger) {
+            toastTrigger.addEventListener('click', () => {
+                const toast = new bootstrap.Toast(toastLiveExample)
+
+                toast.show()
+            })
+        }
+    </script>
+
+</body>
+</html>

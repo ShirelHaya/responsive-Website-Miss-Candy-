@@ -1,0 +1,52 @@
+﻿body {
+    background-image: -webkit-linear-gradient(top,crimson 0%,#bd1f61 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+@media screen and (max-width:768px){
+    #img{
+       width:150px;
+       height:auto;
+    }
+}
+form{
+
+}
+span {
+    color: #444141;
+}
+
+input{
+    width: 200px;
+    margin: 7px;
+}
+#adding {
+    width: 50px;
+    margin: 7px;
+    border-radius: 8px;
+}
+#getting inform{
+    background-color:lightpink;
+    position:fixed;
+    right:25%;
+    left:25%;
+}
+header {
+    grid-area: header;
+}
+footer {
+    grid-area: footer;
+}
+section {
+    grid-area: section;
+}
+.grid {
+    display: grid;
+    height: 860px; /*!!!!!!! נתינת גובה קבוע לאלמנט */
+    grid-template-areas: "header header header" "section section section " "footer footer footer";
+    grid-template-rows: 120px 1fr 100px; /* שלוש שורות - השורה השניה מקבלת את הגובה הנשאר*/
+    /*grid-template-columns: 15% 1fr 30%;*/ /* שלוש עמודות - העמודה השניה מקבלת את הרוחב הנשאר*/
+    /*כעקרון 3 עמודות מיותרות לעמודים אלו*/
+    grid-gap: 4px; /* רווחים*/
+}

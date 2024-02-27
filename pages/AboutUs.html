@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="../css/header.css" rel="stylesheet" />
+    <link href="../css/footer.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="../css/about.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <title>אודות</title>
+</head>
+<body>
+    <!--העמוד מקפיץ את הפוטר באם מנסים לחזור לבועה הקודמת!!!!!!!!!!!!!!!!!!!-->
+    <header>
+        <img id="logo" src="../pictures/LogoMissCandy1.png" />
+        <!--תפריט למסכים קטנים-->
+        <div class="mobile">
+            <!--תפריט-->
+            <input type="checkbox" id="active">
+            <label for="active" class="menu-btn"><span></span></label>
+            <label for="active" class="close"></label>
+            <div class="wrapper">
+                <ul>
+
+                    <li> <a href="mainPage.html">בית</a></li>
+                    <li> <a href="Subscriber-new.html">הצטרפות-למנוי</a></li>
+                    <li> <a href="Subscriber-old.html">התחברות</a></li>
+                    <li><a href="BuqetForChoose.html">זרים</a></li>
+                    <li><a href="AloneBulding.html">הרכבה-עצמאית-ותוספות</a></li>
+                    <li><a href="Gifts.html"> מתנות</a></li>
+                    <li><a href="AboutUs.html">אודות</a></li>
+                    <li>
+                        <a href="ShoppingPacket.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <!--תפריט למסכים רחבים-->
+        <nav class="stroke">
+
+            <ul>
+                <li> <a href="mainPage.html">בית</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">סוגי-זרים</a>
+                    <div class="dropdown-content">
+                        <a href="BuqetForChoose.html">זרים</a>
+                        <a href="AloneBulding.html">הרכבה עצמאית ותוספות</a>
+                        <a href="Gifts.html">מתנות</a>
+                    </div>
+                </li>
+                <li><a href="AboutUs.html">אודות</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">מנוי</a>
+                    <div class="dropdown-content">
+                        <a href="Subscriber-old.html">התחברות</a>
+                        <a href="Subscriber-new.html">הצטרפות</a>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="ShoppingPacket.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <br />
+    <br />
+    <!-- MultiStep Form -->
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <form id="msform">
+                <!-- progressbar -->
+                <ul id="progressbar">
+                    <li class="active">אודותנו</li>
+                    <li>אופן התשלום</li>
+                    <li>מדניות האתר</li>
+                </ul>
+                <!-- fieldsets -->
+                <fieldset>
+                    <h2 class="fs-title">אודותנו</h2>
+                    <p>
+                    <p>
+                        באתרנו תוכל להנות מחווית קניה יחודית ומפנקת
+                        <br />
+                        אתר זה הוא היחיד מסוגו המאפשר גם הרכבת זר בהתאמה אישית <br />
+                        ובעל מגוון גדול מאד של זרים ודוגמאות וגם מארזים ומתנות מוכנות שיחסכו מאמץ <br />
+                        ובוודאי ישמחו את יקירך <br />בין אם זה סתם יום הולדת או הערכה עמוקה<br />   כל סוגי הפרחים הינם עבודת יד ובכשריות מהודרות
+                        <br />miss candy <br />הוקמה על  ידי נערה יצירתית שנמשכה לתחום העיצוב במיוחד בגלל הקושי ששרר בתקופת הקורונה
+                        היא גם עקבה אחר דודתה-בעלת עסק בתחום והעסק קרץ לה... את הפרחים הראשונים וגם בהמשך היא עשתה בעצמה ומכאן הכל התפתח
+                        והתפתח עד שהיא פתחה סניפים רבים. בין היתר באחד מהם גיסה את דודתה...
+                        <br />
+                        !קניה מהנה
+                    </p>
+                    <input type="button" name="next" class="next action-button" value="הבא" />
+                </fieldset>
+                <fieldset>
+                    <h2 class="fs-title">אופן התשלום באתרנו</h2>
+                    <p>
+                        <h4>
+                            <b>
+                                :הבהרה
+                            </b>
+                        </h4>
+                        התשלום מתבצע בעת ההזמנה ללא קשר למועד הגעת ההזמנה ליעדה.
+                        התשלום באתר באמצעות אשראי בלבד. ניתן לשלם באמצעים אחרים בהגעה לסניפנו הפזורים ברחבי הארץ.
+                        בעת התשלום ניתנת אפשרות נוספת לבחור תוסף משלים וכן השלמת כרטיס ברכה וכל
+                        זאת בתוספת תשלום.
+                        למעונינים להוסיף פריט מיוחד שלא מופיע במאגר- ניתן לפנות אלינו ולתאם.
+                        כמו כן כל המוצרים שבאתר ניתנים לשילוב במתנות שברשותכם כגון משחק. או משלוח מנות.
+
+                    </p>
+                    <input type="button" name="previous" class="previous action-button-previous" value="הקודם" />
+                    <input type="button" name="next" class="next action-button" value="הבא" />
+                </fieldset>
+                <fieldset>
+                    <h2 class="fs-title">מדיניות האתר</h2>
+                    <p>
+                        אנו משקיעים ונוטעים אהבה בכל אחד מהמוצרים היוצא ממפעלינו. המוצרים נעשים על ידי אומניות מקצועיות בתחום ובעלות שם
+                        במקרה של אי שביעות רצון ניתן לפנות אלינו ונדאג לפצות לאחר בחינת הנזק.
+                        המשלוחים עלולים להגיע בימי עומס עד ארבעה ימי עסקים.
+                        המילויי'ם ובקבוקי השתיה הנתונים כתוספת בכשריות מהודרות.
+                        ישנה אפשרות להזמנות בסיטונאות כגון לימי גיבוש. הזמנה בסיטונאות מכילה החל מ-15 זרים או 20 פרחים יחידים.
+                        אם הזמנתכם עונה על קטגוריה זו- תזכו בהנחה משתלמת במיוחד.
+                        הזמנות שיוזמנו בשבת- לא יתקבלו.
+
+                    </p>
+                    <input type="button" name="previous" class="previous action-button-previous" value="הקודם" />
+                </fieldset>
+            </form>
+
+        </div>
+    </div>
+   
+    <div id="div">
+        <video width="520" height="420" controls="controls" poster="../pictures/זרים/ורדים/ורדים .png">
+            
+            כאן מופיע סרטון תאור
+            <br />
+            HTML5 אנו מצטערים, הדפדפן שלך אינו תומך בתקן
+            <source src="../video/flowers.mp4" type="video/mp4" />
+        </video>
+    </div>
+    
+    <footer>
+        <div class="footer">
+            <div class="column">
+                <ul>
+                    <li class="title">Miss Candy</li>
+                    <li>
+                        Сладкие цветы в большом ассортименте и возможность самостоятельной сборки. Все цветы сделаны вручную профессиональным художником.
+
+                    </li>
+
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li class="title">קישורים נוספים</li>
+                    <li><a href="AboutUs.html">אודות</a></li>
+                    <li><a href="AboutUs.html">אופן התשלום</a></li>
+                    <li><a href="AboutUs.html">מדניות האתר</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li class="title">קיצורים</li>
+                    <li><a href="BuqetForChoose.html">זרים</a></li>
+                    <li><a href="AloneBulding.html">הרכבה עצמית</a></li>
+                    <li><a href="Gifts.html">מתנות</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <ul>
+                    <li class="title">ניוזליי'טר</li>
+                    <li>
+                        <form action="#" method="post">
+                            <input type="email" name="email"
+                                   placeholder="אמיי'ל*" maxlength="80" required />
+                            <button class="btn1">
+                                <i class="fa fa-paper-plane"></i>
+                            </button>
+
+                        </form>
+                    </li>
+                    <li>
+                        <a class="social icon" href="#"
+                           title="Address,State,Country,Pincode">
+                            <i class="fa fa-map-marker"></i>
+                        </a>
+
+                        <a class="social icon" href="#">
+                            <i class="fa fa-phone"></i>
+                        </a>
+
+                        <a class="social icon" href="#">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="sub-footer">
+        made with &nbsp;
+        <svg id="love" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+        </svg>
+        &nbsp; Shirel Haya Aronin
+    </div>
+
+
+
+
+    <!--הקוד לא עובד טוב כששמים את קטע  הסקריפט בעמוד גאבה סקירפט נפרד
+    ולכן שמתי את זה בתוך עמוד זה-->
+
+    <script>
+        //jQuery time
+        var current_fs, next_fs, previous_fs; //fieldsets
+        var left, opacity, scale; //fieldset properties which we
+
+        var animating; //flag to prevent quick multi-click glitches
+        $(".next").click(function () {
+            if (animating) return false;
+            animating = true;
+            current_fs = $(this).parent();
+            next_fs = $(this).parent().next();
+            //activate next step on progressbar using the index of
+            next_fs
+            $("#progressbar li").eq($("fieldset").index
+                (next_fs)).addClass("active");
+            //show the next fieldset
+            next_fs.show();
+            //hide the current fieldset with style
+            current_fs.animate({ opacity: 0 }, {
+                step: function (now, mx) {
+                    //as the opacity of current_fs reduces to 0 - stored in
+                    "now"
+                    //1. scale current_fs down to 80%
+                    scale = 1 - (1 - now) * 0.2;
+                    //2. bring next_fs from the right(50%)
+                    left = (now * 50) + "%";
+                    //3. increase opacity of next_fs to 1 as it moves in
+                    opacity = 1 - now;
+                    current_fs.css({
+                        'transform': 'scale(' + scale + ')',
+                        'position': 'absolute'
+                    });
+                    next_fs.css({ 'left': left, 'opacity': opacity });
+                },
+                duration: 800,
+                complete: function () {
+                    current_fs.hide();
+                    animating = false;
+                },
+                //this comes from the custom easing plugin
+                easing: 'easeInOutBack'
+            });
+        });
+        $(".previous").click(function () {
+            if (animating) return false;
+            animating = true;
+            current_fs = $(this).parent();
+            previous_fs = $(this).parent().prev();
+            //de-activate current step on progressbar
+            $("#progressbar li").eq($("fieldset").index
+                (current_fs)).removeClass("active");
+            //show the previous fieldset
+            previous_fs.show();
+            //hide the current fieldset with style
+            current_fs.animate({ opacity: 0 }, {
+                step: function (now, mx) {
+                    //as the opacity of current_fs reduces to 0 - stored in
+                    "now"
+                    //1. scale previous_fs from 80% to 100%
+                    scale = 0.8 + (1 - now) * 0.2;
+                    //2. take current_fs to the right(50%) - from 0%
+                    left = ((1 - now) * 50) + "%";
+                    //3. increase opacity of previous_fs to 1 as it moves in
+                    opacity = 1 - now;
+                    current_fs.css({ 'left': left });
+                    previous_fs.css({
+                        'transform': 'scale(' + scale + ')',
+                        'opacity': opacity
+                    });
+                },
+                duration: 800,
+                complete: function () {
+                    current_fs.hide();
+                    animating = false;
+                },
+                //this comes from the custom easing plugin
+                easing: 'easeInOutBack'
+            });
+        });
+        $(".submit").click(function () {
+            return false;
+        })
+    </script>
+
+</body>
+</html>

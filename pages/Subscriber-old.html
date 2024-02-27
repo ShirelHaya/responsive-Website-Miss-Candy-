@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="../css/header.css" rel="stylesheet" />
+    <link href="../css/footer.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <link href="../css/products.css" rel="stylesheet" />
+    <link href="../css/subscribers.css" rel="stylesheet" />
+    <title>התחברות</title>
+</head>
+<body dir="ltr">
+    <audio id="TheAudio" autoplay="autoplay" loop="loop" onended="myNewScr">
+        HTML5 בדף זה אמורה להתנגן מנגינה אך הדפדפן שלך אינו תומך בתקן
+        <source src="../audio/Simi%20Lev%20(feat.%20Shmueli%20Ungar).mp3" type="audio/mp3" />
+        <source src="../audio/Simi%20Lev%20(feat.%20Shmueli%20Ungar).ogg" type="audio/ogg" />
+    </audio>
+    <div class="grid">
+        <header>
+            <img id="logo" src="../pictures/LogoMissCandy1.png" />
+            <!--תפריט למסכים קטנים-->
+            <div class="mobile">
+                <!--תפריט-->
+                <input type="checkbox" id="active">
+                <label for="active" class="menu-btn"><span></span></label>
+                <label for="active" class="close"></label>
+                <div class="wrapper">
+                    <ul>
+                        <li> <a href="mainPage.html">בית</a></li>
+                        <li> <a href="Subscriber-new.html">הצטרפות-למנוי</a></li>
+                        <li> <a href="Subscriber-old.html">התחברות</a></li>
+                        <li><a href="BuqetForChoose.html">זרים</a></li>
+                        <li><a href="AloneBulding.html">הרכבה-עצמאית-ותוספות</a></li>
+                        <li><a href="Gifts.html"> מתנות</a></li>
+                        <li><a href="AboutUs.html">אודות</a></li>
+                        <li>
+                            <a href="ShoppingPacket.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                                </svg>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <!--תפריט למסכים רחבים-->
+            <nav class="stroke">
+
+                <ul>
+                    <li> <a href="mainPage.html">בית</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">סוגי-זרים</a>
+                        <div class="dropdown-content">
+                            <a href="BuqetForChoose.html">זרים</a>
+                            <a href="AloneBulding.html">הרכבה עצמאית ותוספות</a>
+                            <a href="Gifts.html">מתנות</a>
+                        </div>
+                    </li>
+                    <li><a href="AboutUs.html">אודות</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">מנוי</a>
+                        <div class="dropdown-content">
+                            <a href="Subscriber-old.html">התחברות</a>
+                            <a href="Subscriber-new.html">הצטרפות</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="ShoppingPacket.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1 id="title">התחברות</h1>
+
+            <div id="getting inform">
+                <form>
+                    <input type="text" name="tz" placeholder="תז*" required />
+                    <br />
+                    <br />
+                    <input type="tel" name="pel-number" placeholder="ניי'ד*" required />
+                    <br />
+                    <br />
+
+                    <input type="password" name="password" placeholder="סיסמה*" required />
+                    <br />
+                    <span>יש לציי'ן סיסמה המכילה לפחות 8 תווים</span>
+                    <br />
+                    <br />
+                    <span>כל המסומן ב-* הינו שדה חובה</span>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <button id="adding" style="width: 500px;height: 50px" name="Pluss" title="התחברות">
+                        <h2 align="center">התחברות</h2>
+                    </button>
+                    <br />
+                    <br />
+
+                    <img id="img" src="../pictures/זרים/ורדים/זר ורדים 2.png" />
+                </form>
+
+            </div>
+
+
+
+
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="column">
+                    <ul>
+                        <li class="title">Miss Candy</li>
+                        <li>
+                            Сладкие цветы в большом ассортименте и возможность самостоятельной сборки. Все цветы сделаны вручную профессиональным художником.
+
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul>
+                        <li class="title">קישורים נוספים</li>
+                        <li><a href="AboutUs.html">אודות</a></li>
+                        <li><a href="AboutUs.html">אופן התשלום</a></li>
+                        <li><a href="AboutUs.html">מדניות האתר</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul>
+                        <li class="title">קיצורים</li>
+                        <li><a href="BuqetForChoose.html">זרים</a></li>
+                        <li><a href="AloneBulding.html">הרכבה עצמית</a></li>
+                        <li><a href="Gifts.html">מתנות</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul>
+                        <li class="title">ניוזליי'טר</li>
+                        <li>
+                            <form action="#" method="post">
+                                <input type="email" name="email"
+                                       placeholder="אמיי'ל*" maxlength="80" required />
+                                <button class="btn1">
+                                    <i class="fa fa-paper-plane"></i>
+                                </button>
+
+                            </form>
+                        </li>
+                        <li>
+                            <a class="social icon" href="#"
+                               title="Address,State,Country,Pincode">
+                                <i class="fa fa-map-marker"></i>
+                            </a>
+
+                            <a class="social icon" href="#">
+                                <i class="fa fa-phone"></i>
+                            </a>
+
+                            <a class="social icon" href="#">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sub-footer">
+                made with &nbsp;
+                <svg id="love" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                </svg>
+                &nbsp; Shirel Haya Aronin
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
